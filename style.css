@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+  }
+
+.leftSection{
+    float: left;
+    position: relative;
+    width: 30vw;
+    height: 100vh;
+    background-image: url('background.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-grow: 1;
+}
+.leftSection div{
+    background-color: rgba(0, 0, 0, 0.192);
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 10vh;
+    font-size: 1vw;
+}
+.leftSection img{
+    width: 5vw;
+    height: 15vh;
+}
+.leftSection p{
+    position: absolute;
+    bottom: 0px;
+    
+}
+.rightSection{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    padding-left: 2vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    width: 60vm;
+    flex-flow: wrap;
+    gap: 1vw;
+    font-size: 1vw ;
+}
+
+
+.footer{
+    position:absolute;
+    bottom: 10vh;
+}
